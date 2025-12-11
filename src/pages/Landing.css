@@ -1,0 +1,18 @@
+/* src/pages/Landing.css - minimal styling for landing layout */
+.landing-grid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 16px 0;
+}
+
+/* ensure sidebar width */
+.category-list {
+  width: 240px;
+}
+
+/* small screens: hide sidebar (optional) */
+@media (max-width: 900px) {
+  .landing-grid { flex-direction: column; }
+  .category-list { width: 100%; order: -1; display: block; }
+}

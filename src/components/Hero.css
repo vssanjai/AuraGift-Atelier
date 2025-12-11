@@ -1,0 +1,38 @@
+.hero {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+  color: white;
+}
+
+.hero-content {
+  max-width: 480px;
+  position: absolute;
+  left: 8%;
+  bottom: 18%;
+  transform: none; /* remove the previous translate */
+  text-align: left;
+}
+
+
+.hero h1 {
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #e08b41;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
